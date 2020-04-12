@@ -1,8 +1,10 @@
-import sympy as sp
+int
+complex
+float
+bool
+str
 
-x = sp.Symbol("x")
-y = sp.Symbol("y")
-
-print(sp.solve(x ** 4 - 1, x))
-
-print(sp.solve([x + 5 * y - 2, -3 * x + 6 * y - 15], [x, y]))
+list
+dict
+set
+tuple
